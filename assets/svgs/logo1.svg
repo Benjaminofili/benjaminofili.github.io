@@ -1,0 +1,15 @@
+<svg width="48" height="40" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @media (prefers-color-scheme: dark) {
+            text { fill: #FFFFFF; }
+        }
+        @media (prefers-color-scheme: light) {
+            text { fill: #1E40AF; }
+        }
+    </style>
+    <rect width="100%" height="100%" fill="#1E40AF" rx="20" ry="20"/>
+   <text x="50%" y="50%" font-size="120" font-family="Arial" font-weight="bold" fill="#FFFFFF"
+      text-anchor="middle" dominant-baseline="central">
+    B
+</text>
+</svg>

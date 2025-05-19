@@ -1,49 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal portfolio of Benjamin Ofili, a developer showcasing coding projects and skills.">
-  <title>Benjamin Ofili - Developer Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
- <header>
-    <div class="logo">
-      <img src="assets/images/logo1.svg" alt="Benjamin Ofili Logo">
-      Benjamin Ofili
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Benjamin Ofili, a developer showcasing coding projects and skills."
+    />
+    <title>Benjamin Ofili - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/images/logo1.svg" alt="Benjamin Ofili Logo" />
+        Benjamin Ofili
+      </div>
       <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <button class="hamburger" id="hamburger" aria-label="Toggle Menu"></button>
-    <div class="menu-panel">
-      <button class="close-btn" id="close-btn">✖</button>
-      <ul class="menu-items">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-    <div class="overlay"></div>
-  </header>
-  <section class="hero">
-    <h1>Hi, I'm Benjamin Ofili</h1>
-    <p>Full-Stack Developer | Building modern web applications with JavaScript, React, and more.</p>
-    <div class="action-btn">
-      <a href="#projects" class="btn">View Projects</a>
-      <a href="#projects" class="btn">Download CV</a>
-    </div>
-  </section>
-  <script src="script.js"></script>
-</body>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Toggle Menu"
+      ></button>
+      <div class="menu-panel">
+        <button class="close-btn" id="close-btn">✖</button>
+        <ul class="menu-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="overlay"></div>
+    </header>
+    <section class="hero">
+      <div class="hero-image">
+        <img src="assets/images/bb.png" alt="Benjamin Ofili" />
+      </div>
+      <h1>Hi, I'm Benjamin Ofili</h1>
+      <p>
+        Full-Stack Developer | Building modern web applications with JavaScript,
+        React, and more.
+      </p>
+      <div class="action-btn">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#projects" class="btn">Download CV</a>
+      </div>
+      <div class="action-btn social-icons">
+        <a
+          href="https://github.com/Benjaminofili"
+          target="_blank"
+          rel="noopener"
+          title="GitHub Profile"
+          ><img src="assets/svgs/github-142-svgrepo-com.svg" alt="GitHub" />
+        </a>
+        <!-- set up and add the linkedIn profile -->
+        <a
+          href="https://www.linkedin.com/in/your-linkedin-username"
+          target="_blank"
+          rel="noopener"
+          title="LinkedIn Profile"
+          ><img src="assets/svgs/linkedin-svgrepo-com.svg" alt="LinkedIn"
+        /></a>
+        <a
+          href="https://wa.me/+2348135011286"
+          target="_blank"
+          rel="noopener"
+          title="WhatsApp Contact"
+          ><img src="assets/svgs/whatsapp-128-svgrepo-com.svg" alt="WhatsApp" />
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate developer with experience in building web applications
+        using modern technologies. My goal is to create user-friendly and
+        efficient solutions that meet the needs of users.
+      </p>
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -248,6 +248,21 @@ nav a:hover {
   margin-top: 60px;
 }
 
+
+.hero-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -262,6 +277,28 @@ nav a:hover {
 .action-btn {
   display: flex;
   gap: 1rem;
+  margin: 1rem 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: var(--text);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--primary);
+}
+.social-icons img {
+  width: 100%;
+  max-width: 25px; 
+  height: auto;
+  
 }
 
 .btn {
