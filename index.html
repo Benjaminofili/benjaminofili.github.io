@@ -12,37 +12,44 @@
   </head>
   <body>
     <header>
+      <!-- LOGO -->
       <div class="logo">
-        <img src="assets/images/logo1.svg" alt="Benjamin Ofili Logo" />
+        <img src="assets/svgs/logo1.svg" alt="Benjamin Ofili Logo" />
         Benjamin Ofili
       </div>
-      <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <button
-        class="hamburger"
-        id="hamburger"
-        aria-label="Toggle Menu"
-      ></button>
-      <div class="menu-panel">
-        <button class="close-btn" id="close-btn">✖</button>
-        <ul class="menu-items">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+
+      <!-- CONTROLS: Nav → Theme → Hamburger -->
+      <div class="controls">
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle Menu"
+        ></button>
       </div>
-      <div class="overlay"></div>
     </header>
+
+    <!-- SLIDE-IN MENU (mobile) -->
+    <div class="menu-panel" role="navigation">
+             <button class="close-btn" id="close-btn">✖</button>
+      <ul class="menu-items">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="overlay"></div>
     <section class="hero">
       <div class="hero-image">
         <img src="assets/images/bb.png" alt="Benjamin Ofili" />
